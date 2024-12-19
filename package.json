@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port ${PORT-3001}",
-    "build": "contentlayer build && next build",
+    "build": "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start --port ${PORT-3001}",
     "clean": "rm -rf .next",
